@@ -1,6 +1,7 @@
 const email = document.querySelector(".email")
 const incorrecto = document.querySelector(".incorrecto")
 const boton = document.querySelector(".boton")
+const error = document.querySelector(".error")
 
 
 let emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;

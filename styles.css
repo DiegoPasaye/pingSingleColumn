@@ -104,3 +104,34 @@ span{
 .boton:hover{
     box-shadow: 1px 1px 10px 2px hsl(223, 100%, 88%);
 }
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .formulario input{
+        width: 60%;
+        height: 5vw;
+    }
+    .formulario button{
+        width: 60%;
+        margin-top: 2vh;
+    }
+    .logo{
+        width: 50vw;
+        background-size: 10vw;
+    }
+    .ilustration img{
+        width: 90%;
+    }
+    .copyright{
+        padding-top: 5vh;
+    }
+}
