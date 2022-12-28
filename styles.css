@@ -134,4 +134,7 @@ span{
     .copyright{
         padding-top: 5vh;
     }
+    .incorrecto{
+        margin-left: 0;
+    }
 }
